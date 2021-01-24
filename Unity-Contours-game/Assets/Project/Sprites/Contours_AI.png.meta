@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: 14c545c7acf6602409e1884ad71656f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3912368608359493611
+    second: Contours_AI_0
+  - first:
+      213: 5500036835144724866
+    second: Contours_AI_2
+  - first:
+      213: 4296379678742000182
+    second: Contours_AI_3
+  - first:
+      213: 4171145499154180130
+    second: Contours_AI_4
+  - first:
+      213: 8378606244434405576
+    second: Contours_AI_5
+  - first:
+      213: -3853342939668832724
+    second: Contours_AI_6
+  - first:
+      213: 133902403620685468
+    second: Contours_AI_7
+  - first:
+      213: 4712667236758821557
+    second: Contours_AI_8
+  - first:
+      213: 6626951187921351724
+    second: Contours_AI_9
+  - first:
+      213: 7304923132876829632
+    second: Contours_AI_10
+  - first:
+      213: -637034530124507661
+    second: Contours_AI_11
+  - first:
+      213: -2023371452706754627
+    second: Contours_AI_12
+  - first:
+      213: 4187982236876772039
+    second: Contours_AI_13
+  - first:
+      213: -7712693095080060333
+    second: Contours_AI_14
+  - first:
+      213: -2378981671398510060
+    second: Contours_AI_15
+  - first:
+      213: -8770983677939659420
+    second: Contours_AI_16
+  - first:
+      213: -3420988866334499272
+    second: Contours_AI_17
+  - first:
+      213: -7035717907486438135
+    second: Contours_AI_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Contours_AI_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1539
+        width: 363
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef28ab45868b4630800000000000000
+      internalID: 3912368608359493611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1659
+        width: 485
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817d527c5e045c40800000000000000
+      internalID: 5500036835144724866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_3
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1641
+        width: 465
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632bf9bfd8ecf9b30800000000000000
+      internalID: 4296379678742000182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_4
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1245
+        width: 251
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ed875bb2e2e930800000000000000
+      internalID: 4171145499154180130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_5
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1520
+        width: 512
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8e160dcf9c64470800000000000000
+      internalID: 8378606244434405576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1122
+        width: 446
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e9743230d268ac0800000000000000
+      internalID: -3853342939668832724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_7
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1207
+        width: 386
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96c162d687bbd100800000000000000
+      internalID: 133902403620685468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_8
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1161
+        width: 417
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba91af02e1c66140800000000000000
+      internalID: 4712667236758821557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_9
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 1129
+        width: 356
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24b7eb8ef8a7fb50800000000000000
+      internalID: 6626951187921351724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 677
+        width: 472
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c338aed2ec406560800000000000000
+      internalID: 7304923132876829632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 603
+        width: 419
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f55542587cc827f0800000000000000
+      internalID: -637034530124507661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_12
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 742
+        width: 502
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf6fb0526a8be3e0800000000000000
+      internalID: -2023371452706754627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_13
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 702
+        width: 561
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c29fa2d7a3be1a30800000000000000
+      internalID: 4187982236876772039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 606
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a152e5e7207f490800000000000000
+      internalID: -7712693095080060333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_15
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 110
+        width: 423
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412702536c82cfed0800000000000000
+      internalID: -2378981671398510060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_16
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 211
+        width: 387
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d48a9c0d4374680800000000000000
+      internalID: -8770983677939659420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_17
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 257
+        width: 472
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ed09150c43680d0800000000000000
+      internalID: -3420988866334499272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contours_AI_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 389
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d8a6807db1c5e90800000000000000
+      internalID: -7035717907486438135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a96a734603444bc49af9425303c3a86c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

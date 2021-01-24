@@ -4,31 +4,33 @@ using UnityEngine.EventSystems;
 public class Cards : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     public int id;
-    [SerializeField] private RectTransform groupe;
+    [SerializeField] private RectTransform groupe = new RectTransform();
+    [SerializeField] private RectTransform groupe2 = new RectTransform();
+    [SerializeField] private CanvasGroup canvaseGroupe = new CanvasGroup();
 
-    [SerializeField] private Canvas canvas;
+    [SerializeField] private Canvas canvas = new Canvas();
     [HideInInspector] public RectTransform rectCard = new RectTransform();
-    [HideInInspector] public Vector3 startPosition;
+    [HideInInspector] public Vector3 startPosition = new Vector3();
 
     private void Awake()
     {
         rectCard = GetComponent<RectTransform>();
-        startPosition = rectCard.position;
+        canvaseGroupe = GetComponent<CanvasGroup>();
+        startPosition = rectCard.anchoredPosition;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+        canvaseGroupe.blocksRaycasts = false;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
+        canvaseGroupe.blocksRaycasts = true;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Drag");
-        rectCard.anchoredPosition += eventData.delta / canvas.scaleFactor / groupe.localScale;
+        rectCard.anchoredPosition += eventData.delta / canvas.scaleFactor / groupe.localScale / groupe2.localScale;
     }
 }

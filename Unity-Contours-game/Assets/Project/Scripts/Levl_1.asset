@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ef901325d996a43a8d0222d03d63e8, type: 3}
+  m_Name: Levl_1
+  m_EditorClassIdentifier: 
+  levelGroup: {fileID: 3714931153882504639, guid: 0979ea059958d124ea938dad3961f45a,
+    type: 3}
+  level: 0
+  amountSuccessfullyCell: 6
+  contours:
+  - {fileID: 7451332253252852784, guid: 863987b337927814f802cf592f8d98ca, type: 3}
+  - {fileID: 5751966774783926696, guid: b25de039f74769a4582e6247bd0f286e, type: 3}
+  - {fileID: 6666976632821192440, guid: db83265d4b0e012428a32e832bcc9471, type: 3}
+  - {fileID: 7546349775931744757, guid: 8d5f90a8de0ef1d47970e01c2673ff3e, type: 3}
+  - {fileID: 1681372583639186339, guid: a4e3c074b79171d4ab150c926ec09f4c, type: 3}
+  - {fileID: 5101259246624487219, guid: 8db757cdf1d6c044a81cc161273fae8e, type: 3}
+  contoursImage: {fileID: 8611926003712368602, guid: ea273b585525e9d46b827638af43e1cb,
+    type: 3}
