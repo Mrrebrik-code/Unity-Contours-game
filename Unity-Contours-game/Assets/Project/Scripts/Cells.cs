@@ -5,18 +5,15 @@ public class Cells : MonoBehaviour, IDropHandler
 {
     [SerializeField] private GameManager _gameManager;
     private Vector2 positionCell;
-
     private GameObject currentEventData;
 
     private void Awake()
     {
         positionCell = GetComponent<RectTransform>().anchoredPosition;
     }
-
     public void OnDrop(PointerEventData eventData)
     {
         currentEventData = eventData.pointerDrag;
-
         Debug.Log(checkPointerDrag);
         if (checkPointerDrag)
         {
@@ -30,7 +27,6 @@ public class Cells : MonoBehaviour, IDropHandler
         }
 
     }
-
     private void AddCards(GameObject card)
     {
         for(int i = 0; i < _gameManager.cards.Length; i++)
@@ -56,6 +52,4 @@ public class Cells : MonoBehaviour, IDropHandler
             return false;
         }
     }
-
-
 }

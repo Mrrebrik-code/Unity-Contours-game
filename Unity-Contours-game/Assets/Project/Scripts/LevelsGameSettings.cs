@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "LevelsSettings", menuName = "ScriptableObjects/LevelSettings", order = 1)]
 public class LevelsGameSettings : ScriptableObject

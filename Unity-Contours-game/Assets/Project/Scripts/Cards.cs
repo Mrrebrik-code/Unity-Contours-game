@@ -3,7 +3,6 @@ using UnityEngine.EventSystems;
 
 public class Cards : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-    public int id;
     [SerializeField] private RectTransform groupe = new RectTransform();
     [SerializeField] private RectTransform groupe2 = new RectTransform();
     [SerializeField] private CanvasGroup canvaseGroupe = new CanvasGroup();
@@ -18,17 +17,14 @@ public class Cards : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHan
         canvaseGroupe = GetComponent<CanvasGroup>();
         startPosition = rectCard.anchoredPosition;
     }
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvaseGroupe.blocksRaycasts = false;
     }
-
     public void OnEndDrag(PointerEventData eventData)
     {
         canvaseGroupe.blocksRaycasts = true;
     }
-
     public void OnDrag(PointerEventData eventData)
     {
         rectCard.anchoredPosition += eventData.delta / canvas.scaleFactor / groupe.localScale / groupe2.localScale;

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelGroup: {fileID: 897701183591189320, guid: 9b2a09f7d9251bc4a8fbaa98e7743225,
     type: 3}
-  level: 1
+  level: 2
   amountSuccessfullyCell: 6
   contours:
   - {fileID: 2764255224691947720, guid: 09026c36eef4f734db83486467a8b1b4, type: 3}
@@ -23,5 +23,3 @@ MonoBehaviour:
   - {fileID: 1620979378565680671, guid: 838e469cfb2b866428e317366f55f09c, type: 3}
   - {fileID: 7349149524677010462, guid: 1b3a161ef85f2e54b86b765de68be739, type: 3}
   - {fileID: 42597399235007573, guid: 20758309d82b15e4d9f1f7a7a1e4d0e0, type: 3}
-  contoursImage: {fileID: 5412506264892870857, guid: ab65f75307dc8b94eb5cefd68c10b2bb,
-    type: 3}
