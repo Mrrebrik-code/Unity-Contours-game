@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Cells : MonoBehaviour, IDropHandler
 {
@@ -17,13 +18,22 @@ public class Cells : MonoBehaviour, IDropHandler
         Debug.Log(checkPointerDrag);
         if (checkPointerDrag)
         {
+            for(int i = 0; i < 6; i++)
+            {
+                if(_gameManager.contoursLevelGame[_gameManager.currentLevel-1]._contoursLevel[i].gameObject.name == currentEventData.gameObject.name)
+                {
+                    _gameManager.contoursLevelGame[_gameManager.currentLevel - 1]._contoursLevel[i].gameObject.GetComponent<Image>().color = new Color(1, 1, 1, 1);
+                }
+            }
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = positionCell;
             AddCards(eventData.pointerDrag.gameObject);
             _gameManager.AddSuccessfullyCell();
+            _gameManager.audioSourceSound.PlayOneShot(_gameManager.dropSound);
         }
         else
         {
             eventData.pointerDrag.GetComponent<Cards>().rectCard.anchoredPosition = eventData.pointerDrag.GetComponent<Cards>().startPosition;
+            _gameManager.audioSourceSound.PlayOneShot(_gameManager.faillSound);
         }
 
     }
