@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
     public bool buttonNext;
     public GameObject winPanel;
 
@@ -33,10 +34,9 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-
         audioSourceMusic.PlayOneShot(fonMusic);
         cards = new GameObject[amountSuccessfullyCell];
-        _level = LevelsSettings[0];
+        _level = LevelsSettings[DataHolder._levelStart];
         LoadLevel();
     }
     public void CheckingStatusGame()
